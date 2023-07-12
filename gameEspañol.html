@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typer Faster Español</title>
+   
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styleGameEspañol.css">
+  
+  <style>
+    body {
+      background-image: url("images/fondo.png");
+      background-size: cover;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Ubuntu', sans-serif;
+    };
+  </style>
+
+</head>
+
+<body>
+
+
+  <!------------------------------ Div principal----------------------------->
+  <div id="divPrincipal">
+
+    <!------- card del game -------->
+    
+    <div id="card">
+
+<!---------------------- buttons ------------------>
+      <div id="buttonsContainer">
+      
+        <div id="divButtonIdioma" class="btn-group dropdown-center">
+          <button id="buttonIdioma" class="btn btn-outline-light dropdown-toggle btn-lg fixed-width-button" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Elegí el idioma
+          </button>
+          <ul class="dropdown-menu">
+            <li><a id="español" class="dropdown-item" href="#">Español</a></li>
+            <li><a id="ingles" class="dropdown-item" href="#">Inglés</a></li>
+            <li><a id="frances" class="dropdown-item" href="#">Francés</a></li>
+          </ul>
+
+        </div>
+
+        <div id="divButtonDificultad" class="btn-group dropdown-center">
+          <button id="buttonDificultad" class="btn btn-outline-light dropdown-toggle btn-lg fixed-width-button" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Elegí la dificultad
+          </button>
+          <ul class="dropdown-menu">
+            <li><a id="facil" class="dropdown-item" href="#">Fácil</a></li>
+            <!-- <li><a id="intermedio" class="dropdown-item" href="#">Intermedio</a></li> -->
+            <li><a id="dificil" class="dropdown-item" href="#">Difícil</a></li>
+          </ul>
+
+        </div>
+      </div>
+      
+       
+       
+<!--------------- palabras random--------------->
+      <div id="game">
+
+        <div id="palabrasRandom">
+          
+          <h1 id="randomWord">&nbsp;</h1>
+
+        </div>
+        <div id="divInput">
+          <p id="labelInput" style="font-weight: 700; font-size: 20px; visibility: hidden;">Hace 'Click' acá abajo para empezar a jugar</p>
+          <input type="text" id="text" autocomplete="off" style="visibility: hidden;">
+        </div>
+       
+        <div id="timeContainer" style="visibility: hidden;">
+          <p>Tiempo restante: <span id="timeSpan" style="color: rgb(255, 0, 0); font-weight: 700; font-size: 40px;">8s</span></p>
+        </div>
+      </div>
+   
+      <div id="scoreContainer"></div>
+    </div>
+    
+
+    <!-----------card info del game -------------->
+    <div id="cardRanking">
+      <div id="tituloRanking">
+
+        <p id="tituloInfoGame">
+         INSTRUCCIONES DEL JUEGO
+        </p>
+      </div>
+
+      <div id="listaRanking">
+        <div id="info">
+
+<p>
+  ¡Escribí las palabras que aparecen lo más rápido que puedas!
+</p>
+
+<p>En dificultad "Fácil", cada palabra correcta le suma "3 segundos" al tiempo restante.</p>
+<p>En dificultad "Difícil", cada palabra correcta le suma "1 segundo" al tiempo restante.</p>
+
+<p>Cada palabra correcta suma "10 puntos".</p>
+
+<p>¡Buena suerte!</p>
+
+        </div>
+      </div>
+     <div id="buttonReset">
+        <a class="btn btn-light btn-lg" role="button" id="btnReset">Volver a jugar</a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="scripts/scriptGameEspañol.js"></script>
+  
+</body>
+
+</html>
