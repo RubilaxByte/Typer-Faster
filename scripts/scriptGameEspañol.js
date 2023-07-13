@@ -325,7 +325,6 @@ let wordsFrancesFacil = [
     "lunettes",
     "téléphone",
     "dormir",
-    "cœur",
     "stylo",
     "espace",
     "étoile",
