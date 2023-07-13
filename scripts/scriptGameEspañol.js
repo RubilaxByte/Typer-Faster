@@ -367,7 +367,7 @@ let wordsFrancesFacil = [
   ];
 
   let wordsInglesFacil = [
-    "apple",
+  "apple",
   "table",
   "chair",
   "green",
@@ -389,7 +389,6 @@ let wordsFrancesFacil = [
   "learn",
   "beach",
   "knife",
-  "knife",
   "light",
   "round",
   "write",
@@ -397,7 +396,6 @@ let wordsFrancesFacil = [
   "white",
   "yellow",
   "orange",
-  "grape",
   "grape",
   "juice",
   "fruit",
@@ -689,7 +687,7 @@ function compararInput() {
         input.value = "";
         udpateScore();
         time += 4;
-        agregarPalabraEspañol();
+        agregarPalabraEspañol();  
 
         // Reproducir el sonido
         let audio = new Audio("sounds/correct.mp3");

@@ -5,11 +5,13 @@
     justify-content: center;
 }
 
+
 #divFooter{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    border: 1px solid rgb(160, 0, 152);
+    border: 3px solid rgb(160, 0, 152);
+    border-radius: 10px;
     background-color:rgb(0, 0, 0);
     position: relative;
   /* Permite posicionar el footer de manera relativa */
@@ -45,18 +47,21 @@ footer {
     transition: 0.2s;
 }
 
+
+
 #card{
-      max-width: 600px;
-      max-height:700px;
-      min-width:440px;
-      min-height: 500px;
-      width: 600px;
-      height: 500px;
-      padding: 30px;
-      border-radius: 8px;
-      text-align: center;
-      margin-top: 375px;
-      background-color: rgba(150, 0, 170, 0.2); 
+    max-width: 600px;
+    max-height:700px;
+    min-width:440px;
+    min-height: 500px;
+    width: 600px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 375px;
+    background-color: rgba(96, 0, 121, 0.7); 
+    box-shadow: 8px 8px 1px rgba(255, 0, 191, 0.5);
 }
 
 #buttonsContainer {
@@ -83,7 +88,8 @@ footer {
       text-align: center;
       margin-top: 375px;
       margin-left: 70px;
-      background-color: rgba(150, 0, 170, 0.2); 
+      background-color: rgba(96, 0, 121, 0.7); 
+    box-shadow: 8px 8px 1px rgba(255, 0, 191, 0.5); 
    
   }
 
