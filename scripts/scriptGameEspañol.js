@@ -590,20 +590,13 @@ let wordsFrancesFacil = [
     "marcher",
     "forêt",
     "guitare",
-    "anticonstitutionnellement",
-    "pharmaceutique",
-    "électroencéphalographie",
-    "stéréoscopique",
     "honorifique",
     "sophistiqué",
     "xylophone",
     "prémédité",
     "authentique",
     "architectural",
-    "cérébrovasculaire",
-    "monochromatique",
     "phénoménal",
-    "cinématographique",
     "harmonieux",
     "équivoque",
     "paradoxal",
@@ -611,7 +604,6 @@ let wordsFrancesFacil = [
     "évocateur",
     "mystérieux",
     "fantastique",
-    "électromagnétique",
     "philosophique",
     "caractéristique",
     "parfaitement",
@@ -1014,7 +1006,7 @@ return palabra;
 function agregarPalabraEspañol() {
     imprimePalabraAleatoria.textContent = randomWordsEspañol();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "75px"
+    imprimePalabraAleatoria.style.fontSize = "70px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     ////////////dificil//////////////////
     
@@ -1039,7 +1031,7 @@ function compararInput() {
 function agregarPalabraEspañolDificil() {
     imprimePalabraAleatoria.textContent = randomWordsEspañolDificil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "75px"
+    imprimePalabraAleatoria.style.fontSize = "70px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputDificil);
@@ -1065,7 +1057,7 @@ function compararInputDificil() {
 function agregarPalabraFrancesFacil() {
     imprimePalabraAleatoria.textContent = randomWordsFrancesFacil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "75px"
+    imprimePalabraAleatoria.style.fontSize = "70px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputFrancesFacil);
@@ -1090,7 +1082,7 @@ function compararInputFrancesFacil() {
 function agregarPalabraFrancesDificil() {
     imprimePalabraAleatoria.textContent = randomWordsFrancesDificil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "75px"
+    imprimePalabraAleatoria.style.fontSize = "70px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputFrancesDificil);
@@ -1115,7 +1107,7 @@ function compararInputFrancesDificil() {
 function agregarPalabraInglesFacil() {
     imprimePalabraAleatoria.textContent = randomWordsInglesFacil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "75px"
+    imprimePalabraAleatoria.style.fontSize = "70px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputInglesFacil);
@@ -1140,7 +1132,7 @@ function compararInputInglesFacil() {
 function agregarPalabraInglesDificil() {
     imprimePalabraAleatoria.textContent = randomWordsInglesDificil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "75px"
+    imprimePalabraAleatoria.style.fontSize = "70px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputInlgesDificil);
