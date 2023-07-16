@@ -605,7 +605,6 @@ let wordsFrancesFacil = [
     "mystérieux",
     "fantastique",
     "philosophique",
-    "caractéristique",
     "parfaitement",
     "insouciant",
     "inoubliable",
@@ -614,7 +613,6 @@ let wordsFrancesFacil = [
     "exceptionnel",
     "intemporel",
     "extraordinaire",
-    "merveilleusement",
     "intransigeant",
     "substantiel",
     "magnifique",
@@ -719,8 +717,6 @@ let wordsFrancesFacil = [
   "mellifluous",
   "ephemeral",
   "incandescent",
-  "verisimilitude",
-  "perspicacious",
   "clandestine",
   "antediluvian",
   "paradigm",
@@ -730,10 +726,8 @@ let wordsFrancesFacil = [
   "prodigious",
   "esoteric",
   "conundrum",
-  "idiosyncratic",
   "mercurial",
   "ineffable",
-  "discombobulate",
   "ethereal",
   "vicarious",
   "evanescent",
@@ -818,15 +812,11 @@ let wordsFrancesFacil = [
     "serendipity",
     "ubiquitous",
     "plethora",
-    "quintessential",
     "kaleidoscope",
-    "surreptitious",
     "effervescent",
     "mellifluous",
     "ephemeral",
     "incandescent",
-    "verisimilitude",
-    "perspicacious",
     "clandestine",
     "antediluvian",
     "paradigm",
@@ -839,7 +829,6 @@ let wordsFrancesFacil = [
     "idiosyncratic",
     "mercurial",
     "ineffable",
-    "discombobulate",
     "ethereal",
     "vicarious",
     "evanescent",
@@ -1006,7 +995,7 @@ return palabra;
 function agregarPalabraEspañol() {
     imprimePalabraAleatoria.textContent = randomWordsEspañol();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "70px"
+    imprimePalabraAleatoria.style.fontSize = "65px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     ////////////dificil//////////////////
     
@@ -1031,7 +1020,7 @@ function compararInput() {
 function agregarPalabraEspañolDificil() {
     imprimePalabraAleatoria.textContent = randomWordsEspañolDificil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "70px"
+    imprimePalabraAleatoria.style.fontSize = "65px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputDificil);
@@ -1057,7 +1046,7 @@ function compararInputDificil() {
 function agregarPalabraFrancesFacil() {
     imprimePalabraAleatoria.textContent = randomWordsFrancesFacil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "70px"
+    imprimePalabraAleatoria.style.fontSize = "65px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputFrancesFacil);
@@ -1082,7 +1071,7 @@ function compararInputFrancesFacil() {
 function agregarPalabraFrancesDificil() {
     imprimePalabraAleatoria.textContent = randomWordsFrancesDificil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "70px"
+    imprimePalabraAleatoria.style.fontSize = "65px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputFrancesDificil);
@@ -1107,7 +1096,7 @@ function compararInputFrancesDificil() {
 function agregarPalabraInglesFacil() {
     imprimePalabraAleatoria.textContent = randomWordsInglesFacil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "70px"
+    imprimePalabraAleatoria.style.fontSize = "65px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputInglesFacil);
@@ -1132,7 +1121,7 @@ function compararInputInglesFacil() {
 function agregarPalabraInglesDificil() {
     imprimePalabraAleatoria.textContent = randomWordsInglesDificil();
     imprimePalabraAleatoria.style.color = "#3fd97f"
-    imprimePalabraAleatoria.style.fontSize = "70px"
+    imprimePalabraAleatoria.style.fontSize = "65px"
     imprimePalabraAleatoria.style.fontWeight = "700"
     //evento
     input.addEventListener("input", compararInputInlgesDificil);
