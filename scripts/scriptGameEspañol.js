@@ -1007,7 +1007,7 @@ function compararInput() {
     if (input.value === imprimePalabraAleatoria.textContent) {
         input.value = "";
         udpateScore();
-        time += 4;
+        time += 5;
         agregarPalabraEspañol();  
 
         // Reproducir el sonido
@@ -1031,7 +1031,7 @@ function compararInputDificil() {
     if (input.value === imprimePalabraAleatoria.textContent) {
         input.value = "";
         udpateScore();
-        time += 2;
+        time += 3;
         agregarPalabraEspañolDificil();
 
         // Reproducir el sonido
@@ -1057,7 +1057,7 @@ function compararInputFrancesFacil() {
     if (input.value === imprimePalabraAleatoria.textContent) {
         input.value = "";
         udpateScore();
-        time += 4;
+        time += 5;
         agregarPalabraFrancesFacil();
 
         // Reproducir el sonido
@@ -1082,7 +1082,7 @@ function compararInputFrancesDificil() {
     if (input.value === imprimePalabraAleatoria.textContent) {
         input.value = "";
         udpateScore();
-        time += 2;
+        time += 3;
         agregarPalabraFrancesDificil();
 
         // Reproducir el sonido
@@ -1107,7 +1107,7 @@ function compararInputInglesFacil() {
     if (input.value === imprimePalabraAleatoria.textContent) {
         input.value = "";
         udpateScore();
-        time += 4;
+        time += 5;
         agregarPalabraInglesFacil();
 
         // Reproducir el sonido
@@ -1132,7 +1132,7 @@ function compararInputInlgesDificil() {
     if (input.value === imprimePalabraAleatoria.textContent) {
         input.value = "";
         udpateScore();
-        time += 2;
+        time += 3;
         agregarPalabraInglesDificil();
 
         // Reproducir el sonido
