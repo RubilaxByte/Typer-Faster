@@ -1243,6 +1243,21 @@ imprimePalabraAleatoria.style.visibility = "hidden";
 //button reset
 buttonReset.addEventListener("click", () => {location.reload()} );
 
+// Espera a que se cargue el DOM antes de ejecutar el código JavaScript
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener el elemento de audio por sus IDs
+    const audioHover = document.getElementById("audioHover");
+    // Agregar el evento de hover (mouseover) al botón
+    buttonReset.addEventListener("mouseover", function() {
+        // Reiniciar el audio para poder reproducirlo nuevamente al hacer hover
+        audioHover.currentTime = 0;
+        // Reproducir el sonido
+        audioHover.play();
+    });
+});
+
+
+
 
 // hacer aparecer el texto que indica donde empezar a jugar
 
@@ -1267,26 +1282,38 @@ const observer = new MutationObserver(function(mutations) {
         visibilidadLabelInput();
         agregarPalabraEspañol();
         visibilidadInputTime();
+        let audio = new Audio("sounds/mario.mp3");
+        audio.play();
       } else if (buttonIdioma.textContent === 'Español' && buttonDificultad.textContent === 'Difícil') {
         visibilidadLabelInput();
         agregarPalabraEspañolDificil();
         visibilidadInputTime();
+        let audio = new Audio("sounds/mario.mp3");
+        audio.play();
       } else if (buttonIdioma.textContent === 'Francés' && buttonDificultad.textContent === 'Fácil') {
         visibilidadLabelInput();
         agregarPalabraFrancesFacil();
         visibilidadInputTime();
+        let audio = new Audio("sounds/mario.mp3");
+        audio.play();
       } else if (buttonIdioma.textContent === 'Francés' && buttonDificultad.textContent === 'Difícil') {
         visibilidadLabelInput();
         agregarPalabraFrancesDificil();
         visibilidadInputTime();
+        let audio = new Audio("sounds/mario.mp3");
+        audio.play();
       } else if (buttonIdioma.textContent === 'Inglés' && buttonDificultad.textContent === 'Fácil') {
         visibilidadLabelInput();
         agregarPalabraInglesFacil();
         visibilidadInputTime();
+        let audio = new Audio("sounds/mario.mp3");
+        audio.play();
       } else if (buttonIdioma.textContent === 'Inglés' && buttonDificultad.textContent === 'Difícil') {
         visibilidadLabelInput();
         agregarPalabraInglesDificil();
         visibilidadInputTime();
+        let audio = new Audio("sounds/mario.mp3");
+        audio.play();
       }
 
     });
